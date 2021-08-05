@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- tools:ignore is needed because lint thinks this can be replaced with a merge. Replacing this
+     with a merge causes the fullscreen SurfaceView not to be centered. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MergeRootFrame">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alignmentMode="alignMargins"
+        android:columnCount="3"
+        android:isScrollContainer="true"
+        android:scrollbars="vertical">
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/pip_video_view"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view0"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view1"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view2"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view3"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view4"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view5"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view6"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view7"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view8"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view9"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view10"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view11"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view12"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view13"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view14"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view15"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view16"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view17"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view18"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view19"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view20"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view21"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view22"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view23"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view24"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view25"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view26"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view27"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view28"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view29"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view30"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view31"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view32"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view33"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view34"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view35"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+
+    </GridLayout>
+</ScrollView>
+    <FrameLayout
+        android:id="@+id/call_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/hud_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>
