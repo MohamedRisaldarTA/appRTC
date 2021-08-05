@@ -14,199 +14,459 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:alignmentMode="alignMargins"
-        android:columnCount="3"
+        android:columnCount="12"
         android:isScrollContainer="true"
         android:scrollbars="vertical">
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/pip_video_view"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view0"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view1"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view2"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view3"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view4"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view5"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view6"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view7"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view8"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view9"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view10"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view11"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view12"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view13"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view14"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view15"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view16"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view17"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view18"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view19"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view20"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view21"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view22"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view23"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view24"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view25"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view26"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view27"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view28"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view29"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view30"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view31"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view32"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view33"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view34"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/video_view35"
-            android:layout_width="120dp"
-            android:layout_height="120dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view36"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view37"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view38"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view39"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view40"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view41"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view42"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view43"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view44"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view45"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view46"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view47"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view48"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view49"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view50"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view51"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view52"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view53"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view54"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view55"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view56"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view57"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view58"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view59"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view60"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view61"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view62"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view63"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view64"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view65"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view66"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view67"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view68"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view69"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view70"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view71"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view72"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view73"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view74"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view75"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view76"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view77"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view78"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view79"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view80"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view81"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view82"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view83"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view84"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view85"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view86"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view87"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view88"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view89"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view90"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view91"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view92"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view93"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view94"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view95"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view96"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view97"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view98"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view99"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/video_view100"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
 
     </GridLayout>

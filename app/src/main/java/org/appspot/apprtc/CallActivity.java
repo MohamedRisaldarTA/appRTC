@@ -130,7 +130,7 @@ public class CallActivity extends Activity implements AppRTCClient.SignalingEven
   // Peer connection statistics callback period in ms.
   private static final int STAT_CALLBACK_PERIOD = 1000;
 
-  private static final int CAMERA_COUNT = 28;
+  private static final int CAMERA_COUNT = 29;
 
   private static class ProxyVideoSink implements VideoSink {
     private VideoSink target;
